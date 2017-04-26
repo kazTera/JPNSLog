@@ -1,2 +1,2 @@
-# JapanNSLog
+# JPNSLog
 NSLog Japanese language.
