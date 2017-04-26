@@ -1,0 +1,2 @@
+# JPNSLog
+NSLog Japanese language.
