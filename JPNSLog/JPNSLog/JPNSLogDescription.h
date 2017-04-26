@@ -1,5 +1,5 @@
 //
-//  JapanNSLogDescription.h
+//  JPNSLogDescription.h
 //  Demo
 //
 //  Created by Yamamoto Kazunori on 2017/04/26.
