@@ -1,0 +1,6 @@
+framework module JPNSLog {
+  umbrella header "JPNSLog.h"
+
+  export *
+  module * { export * }
+}
