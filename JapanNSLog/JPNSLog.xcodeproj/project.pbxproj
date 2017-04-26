@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		BB875BED1EB03A4800E647FC /* JapanNSLog.h in Headers */ = {isa = PBXBuildFile; fileRef = BB875BEB1EB03A4800E647FC /* JapanNSLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB875C181EB03CED00E647FC /* JapanNSLogDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = BB875C161EB03CED00E647FC /* JapanNSLogDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB875C191EB03CED00E647FC /* JapanNSLogDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = BB875C171EB03CED00E647FC /* JapanNSLogDescription.m */; };
+		BB875C181EB03CED00E647FC /* JPNSLogDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = BB875C161EB03CED00E647FC /* JPNSLogDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB875C191EB03CED00E647FC /* JPNSLogDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = BB875C171EB03CED00E647FC /* JPNSLogDescription.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BB875BE81EB03A4800E647FC /* JapanNSLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JapanNSLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB875BE81EB03A4800E647FC /* JPNSLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JPNSLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB875BEB1EB03A4800E647FC /* JapanNSLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JapanNSLog.h; sourceTree = "<group>"; };
 		BB875BEC1EB03A4800E647FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB875C161EB03CED00E647FC /* JapanNSLogDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JapanNSLogDescription.h; sourceTree = "<group>"; };
-		BB875C171EB03CED00E647FC /* JapanNSLogDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JapanNSLogDescription.m; sourceTree = "<group>"; };
+		BB875C161EB03CED00E647FC /* JPNSLogDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPNSLogDescription.h; sourceTree = "<group>"; };
+		BB875C171EB03CED00E647FC /* JPNSLogDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPNSLogDescription.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +42,7 @@
 		BB875BE91EB03A4800E647FC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BB875BE81EB03A4800E647FC /* JapanNSLog.framework */,
+				BB875BE81EB03A4800E647FC /* JPNSLog.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -50,8 +50,8 @@
 		BB875BEA1EB03A4800E647FC /* JapanNSLog */ = {
 			isa = PBXGroup;
 			children = (
-				BB875C161EB03CED00E647FC /* JapanNSLogDescription.h */,
-				BB875C171EB03CED00E647FC /* JapanNSLogDescription.m */,
+				BB875C161EB03CED00E647FC /* JPNSLogDescription.h */,
+				BB875C171EB03CED00E647FC /* JPNSLogDescription.m */,
 				BB875BEB1EB03A4800E647FC /* JapanNSLog.h */,
 				BB875BEC1EB03A4800E647FC /* Info.plist */,
 			);
@@ -65,7 +65,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB875C181EB03CED00E647FC /* JapanNSLogDescription.h in Headers */,
+				BB875C181EB03CED00E647FC /* JPNSLogDescription.h in Headers */,
 				BB875BED1EB03A4800E647FC /* JapanNSLog.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -73,9 +73,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		BB875BE71EB03A4800E647FC /* JapanNSLog */ = {
+		BB875BE71EB03A4800E647FC /* JPNSLog */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB875BF01EB03A4800E647FC /* Build configuration list for PBXNativeTarget "JapanNSLog" */;
+			buildConfigurationList = BB875BF01EB03A4800E647FC /* Build configuration list for PBXNativeTarget "JPNSLog" */;
 			buildPhases = (
 				BB875BE31EB03A4800E647FC /* Sources */,
 				BB875BE41EB03A4800E647FC /* Frameworks */,
@@ -86,9 +86,9 @@
 			);
 			dependencies = (
 			);
-			name = JapanNSLog;
+			name = JPNSLog;
 			productName = JapanNSLog;
-			productReference = BB875BE81EB03A4800E647FC /* JapanNSLog.framework */;
+			productReference = BB875BE81EB03A4800E647FC /* JPNSLog.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -106,7 +106,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BB875BE21EB03A4800E647FC /* Build configuration list for PBXProject "JapanNSLog" */;
+			buildConfigurationList = BB875BE21EB03A4800E647FC /* Build configuration list for PBXProject "JPNSLog" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BB875BE71EB03A4800E647FC /* JapanNSLog */,
+				BB875BE71EB03A4800E647FC /* JPNSLog */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB875C191EB03CED00E647FC /* JapanNSLogDescription.m in Sources */,
+				BB875C191EB03CED00E647FC /* JPNSLogDescription.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +280,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BB875BE21EB03A4800E647FC /* Build configuration list for PBXProject "JapanNSLog" */ = {
+		BB875BE21EB03A4800E647FC /* Build configuration list for PBXProject "JPNSLog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB875BEE1EB03A4800E647FC /* Debug */,
@@ -289,7 +289,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB875BF01EB03A4800E647FC /* Build configuration list for PBXNativeTarget "JapanNSLog" */ = {
+		BB875BF01EB03A4800E647FC /* Build configuration list for PBXNativeTarget "JPNSLog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB875BF11EB03A4800E647FC /* Debug */,

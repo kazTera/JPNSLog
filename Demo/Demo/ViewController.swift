@@ -12,6 +12,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        JapanNSLogDescription.install() // add code.
+        
+        let ary = ["あいうえお", "カキクケコ", "abcde", [ "らりるれろ", "らりるれろ" ], ["English" : "hello", "日本語" : "こんにちは"]] as [Any]
+        let addLang = ["言語" : "Ruby"]
+        print(addLang)
+        print(ary)
         // Do any additional setup after loading the view, typically from a nib.
     }
 

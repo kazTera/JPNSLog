@@ -12,6 +12,7 @@
 		BB875C051EB03A8D00E647FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB875C031EB03A8D00E647FC /* Main.storyboard */; };
 		BB875C071EB03A8D00E647FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB875C061EB03A8D00E647FC /* Assets.xcassets */; };
 		BB875C0A1EB03A8D00E647FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB875C081EB03A8D00E647FC /* LaunchScreen.storyboard */; };
+		BB875C141EB03B4D00E647FC /* JapanNSLogDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = BB875C131EB03B4D00E647FC /* JapanNSLogDescription.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,9 @@
 		BB875C061EB03A8D00E647FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB875C091EB03A8D00E647FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB875C0B1EB03A8D00E647FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB875C111EB03B4D00E647FC /* Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		BB875C121EB03B4D00E647FC /* JapanNSLogDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JapanNSLogDescription.h; path = ../../JapanNSLog/JapanNSLog/JapanNSLogDescription.h; sourceTree = "<group>"; };
+		BB875C131EB03B4D00E647FC /* JapanNSLogDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JapanNSLogDescription.m; path = ../../JapanNSLog/JapanNSLog/JapanNSLogDescription.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,25 @@
 		BB875BFE1EB03A8D00E647FC /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				BB875C151EB03B5700E647FC /* JapanNSLogDescription */,
 				BB875BFF1EB03A8D00E647FC /* AppDelegate.swift */,
 				BB875C011EB03A8D00E647FC /* ViewController.swift */,
 				BB875C031EB03A8D00E647FC /* Main.storyboard */,
 				BB875C061EB03A8D00E647FC /* Assets.xcassets */,
 				BB875C081EB03A8D00E647FC /* LaunchScreen.storyboard */,
 				BB875C0B1EB03A8D00E647FC /* Info.plist */,
+				BB875C111EB03B4D00E647FC /* Demo-Bridging-Header.h */,
 			);
 			path = Demo;
+			sourceTree = "<group>";
+		};
+		BB875C151EB03B5700E647FC /* JapanNSLogDescription */ = {
+			isa = PBXGroup;
+			children = (
+				BB875C121EB03B4D00E647FC /* JapanNSLogDescription.h */,
+				BB875C131EB03B4D00E647FC /* JapanNSLogDescription.m */,
+			);
+			name = JapanNSLogDescription;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +111,7 @@
 				TargetAttributes = {
 					BB875BFB1EB03A8D00E647FC = {
 						CreatedOnToolsVersion = 8.3.1;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -138,6 +154,7 @@
 			files = (
 				BB875C021EB03A8D00E647FC /* ViewController.swift in Sources */,
 				BB875C001EB03A8D00E647FC /* AppDelegate.swift in Sources */,
+				BB875C141EB03B4D00E647FC /* JapanNSLogDescription.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,10 +277,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.com.geniee.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Demo/Demo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -272,10 +292,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.com.geniee.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Demo/Demo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
