@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB549FA11EB04E8B002B64BB /* JPNSLogDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = BB549FA01EB04E8B002B64BB /* JPNSLogDescription.m */; };
 		BB875C001EB03A8D00E647FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB875BFF1EB03A8D00E647FC /* AppDelegate.swift */; };
 		BB875C021EB03A8D00E647FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB875C011EB03A8D00E647FC /* ViewController.swift */; };
 		BB875C051EB03A8D00E647FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB875C031EB03A8D00E647FC /* Main.storyboard */; };
 		BB875C071EB03A8D00E647FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB875C061EB03A8D00E647FC /* Assets.xcassets */; };
 		BB875C0A1EB03A8D00E647FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB875C081EB03A8D00E647FC /* LaunchScreen.storyboard */; };
-		BB875C141EB03B4D00E647FC /* JapanNSLogDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = BB875C131EB03B4D00E647FC /* JapanNSLogDescription.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB549F9F1EB04E8B002B64BB /* JPNSLogDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPNSLogDescription.h; path = ../../JPNSLog/JPNSLog/JPNSLogDescription.h; sourceTree = "<group>"; };
+		BB549FA01EB04E8B002B64BB /* JPNSLogDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPNSLogDescription.m; path = ../../JPNSLog/JPNSLog/JPNSLogDescription.m; sourceTree = "<group>"; };
 		BB875BFC1EB03A8D00E647FC /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB875BFF1EB03A8D00E647FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB875C011EB03A8D00E647FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,8 +26,6 @@
 		BB875C091EB03A8D00E647FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB875C0B1EB03A8D00E647FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB875C111EB03B4D00E647FC /* Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo-Bridging-Header.h"; sourceTree = "<group>"; };
-		BB875C121EB03B4D00E647FC /* JapanNSLogDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JapanNSLogDescription.h; path = ../../JapanNSLog/JapanNSLog/JapanNSLogDescription.h; sourceTree = "<group>"; };
-		BB875C131EB03B4D00E647FC /* JapanNSLogDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JapanNSLogDescription.m; path = ../../JapanNSLog/JapanNSLog/JapanNSLogDescription.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 		BB875BFE1EB03A8D00E647FC /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				BB875C151EB03B5700E647FC /* JapanNSLogDescription */,
+				BB875C151EB03B5700E647FC /* JPNSLogDescription */,
 				BB875BFF1EB03A8D00E647FC /* AppDelegate.swift */,
 				BB875C011EB03A8D00E647FC /* ViewController.swift */,
 				BB875C031EB03A8D00E647FC /* Main.storyboard */,
@@ -70,13 +70,13 @@
 			path = Demo;
 			sourceTree = "<group>";
 		};
-		BB875C151EB03B5700E647FC /* JapanNSLogDescription */ = {
+		BB875C151EB03B5700E647FC /* JPNSLogDescription */ = {
 			isa = PBXGroup;
 			children = (
-				BB875C121EB03B4D00E647FC /* JapanNSLogDescription.h */,
-				BB875C131EB03B4D00E647FC /* JapanNSLogDescription.m */,
+				BB549F9F1EB04E8B002B64BB /* JPNSLogDescription.h */,
+				BB549FA01EB04E8B002B64BB /* JPNSLogDescription.m */,
 			);
-			name = JapanNSLogDescription;
+			name = JPNSLogDescription;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,7 +154,7 @@
 			files = (
 				BB875C021EB03A8D00E647FC /* ViewController.swift in Sources */,
 				BB875C001EB03A8D00E647FC /* AppDelegate.swift in Sources */,
-				BB875C141EB03B4D00E647FC /* JapanNSLogDescription.m in Sources */,
+				BB549FA11EB04E8B002B64BB /* JPNSLogDescription.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +321,7 @@
 				BB875C101EB03A8D00E647FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

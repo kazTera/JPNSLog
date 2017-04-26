@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BB875BED1EB03A4800E647FC /* JapanNSLog.h in Headers */ = {isa = PBXBuildFile; fileRef = BB875BEB1EB03A4800E647FC /* JapanNSLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB875C181EB03CED00E647FC /* JPNSLogDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = BB875C161EB03CED00E647FC /* JPNSLogDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB875C191EB03CED00E647FC /* JPNSLogDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = BB875C171EB03CED00E647FC /* JPNSLogDescription.m */; };
+		BB549F9B1EB04B16002B64BB /* JPNSLog.h in Headers */ = {isa = PBXBuildFile; fileRef = BB549F971EB04B16002B64BB /* JPNSLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB549F9C1EB04B16002B64BB /* JPNSLogDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = BB549F981EB04B16002B64BB /* JPNSLogDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB549F9D1EB04B16002B64BB /* JPNSLogDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = BB549F991EB04B16002B64BB /* JPNSLogDescription.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB549F961EB04B16002B64BB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = JPNSLog/Info.plist; sourceTree = SOURCE_ROOT; };
+		BB549F971EB04B16002B64BB /* JPNSLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPNSLog.h; path = JPNSLog/JPNSLog.h; sourceTree = SOURCE_ROOT; };
+		BB549F981EB04B16002B64BB /* JPNSLogDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPNSLogDescription.h; path = JPNSLog/JPNSLogDescription.h; sourceTree = SOURCE_ROOT; };
+		BB549F991EB04B16002B64BB /* JPNSLogDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPNSLogDescription.m; path = JPNSLog/JPNSLogDescription.m; sourceTree = SOURCE_ROOT; };
 		BB875BE81EB03A4800E647FC /* JPNSLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JPNSLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB875BEB1EB03A4800E647FC /* JapanNSLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JapanNSLog.h; sourceTree = "<group>"; };
-		BB875BEC1EB03A4800E647FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB875C161EB03CED00E647FC /* JPNSLogDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPNSLogDescription.h; sourceTree = "<group>"; };
-		BB875C171EB03CED00E647FC /* JPNSLogDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPNSLogDescription.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,7 +34,7 @@
 		BB875BDE1EB03A4800E647FC = {
 			isa = PBXGroup;
 			children = (
-				BB875BEA1EB03A4800E647FC /* JapanNSLog */,
+				BB875BEA1EB03A4800E647FC /* JPNSLog */,
 				BB875BE91EB03A4800E647FC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,14 +47,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BB875BEA1EB03A4800E647FC /* JapanNSLog */ = {
+		BB875BEA1EB03A4800E647FC /* JPNSLog */ = {
 			isa = PBXGroup;
 			children = (
-				BB875C161EB03CED00E647FC /* JPNSLogDescription.h */,
-				BB875C171EB03CED00E647FC /* JPNSLogDescription.m */,
-				BB875BEB1EB03A4800E647FC /* JapanNSLog.h */,
-				BB875BEC1EB03A4800E647FC /* Info.plist */,
+				BB549F961EB04B16002B64BB /* Info.plist */,
+				BB549F971EB04B16002B64BB /* JPNSLog.h */,
+				BB549F981EB04B16002B64BB /* JPNSLogDescription.h */,
+				BB549F991EB04B16002B64BB /* JPNSLogDescription.m */,
 			);
+			name = JPNSLog;
 			path = JapanNSLog;
 			sourceTree = "<group>";
 		};
@@ -65,8 +66,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB875C181EB03CED00E647FC /* JPNSLogDescription.h in Headers */,
-				BB875BED1EB03A4800E647FC /* JapanNSLog.h in Headers */,
+				BB549F9B1EB04B16002B64BB /* JPNSLog.h in Headers */,
+				BB549F9C1EB04B16002B64BB /* JPNSLogDescription.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB875C191EB03CED00E647FC /* JPNSLogDescription.m in Sources */,
+				BB549F9D1EB04B16002B64BB /* JPNSLogDescription.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,10 +252,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = JapanNSLog/Info.plist;
+				INFOPLIST_FILE = JPNSLog/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.com.geniee.JapanNSLog;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kazunori.yamamoto.JPNSLog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -268,10 +269,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = JapanNSLog/Info.plist;
+				INFOPLIST_FILE = JPNSLog/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.com.geniee.JapanNSLog;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kazunori.yamamoto.JPNSLog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
