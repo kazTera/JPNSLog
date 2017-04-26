@@ -1,0 +1,56 @@
+BCSymbolMap Version: 2.0
++[JPNSLogDescription install]
+___29+[JPNSLogDescription install]_block_invoke
+___29+[JPNSLogDescription install]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___29+[JPNSLogDescription install]_block_invoke.34
+___29+[JPNSLogDescription install]_block_invoke_2.39
+___copy_helper_block_.40
+___destroy_helper_block_.41
+___29+[JPNSLogDescription install]_block_invoke.46
+___29+[JPNSLogDescription install]_block_invoke_2.49
+___copy_helper_block_.52
+___destroy_helper_block_.53
+___29+[JPNSLogDescription install]_block_invoke.63
+___29+[JPNSLogDescription install]_block_invoke_2.64
+___copy_helper_block_.67
+___destroy_helper_block_.68
+___29+[JPNSLogDescription install]_block_invoke.74
+___29+[JPNSLogDescription install]_block_invoke_2.86
+___29+[JPNSLogDescription install]_block_invoke_3
+___block_descriptor_tmp
+___block_descriptor_tmp.31
+___block_literal_global
+___block_descriptor_tmp.42
+___block_descriptor_tmp.44
+___block_literal_global.45
+___block_descriptor_tmp.55
+___block_descriptor_tmp.61
+___block_literal_global.62
+___block_descriptor_tmp.69
+___block_descriptor_tmp.71
+___block_literal_global.72
+___block_descriptor_tmp.83
+___block_literal_global.84
+___block_descriptor_tmp.90
+___block_literal_global.91
+___block_descriptor_tmp.97
+___block_literal_global.98
+Apple LLVM version 8.1.0 (clang-802.0.41)
+/Users/kazunori-yamamoto/developer/library/JPNSLog/JPNSLog/JPNSLog/JPNSLogDescription.m
+/Users/kazunori-yamamoto/developer/library/JPNSLog/JPNSLog
+__29+[JPNSLogDescription install]_block_invoke_3
+__29+[JPNSLogDescription install]_block_invoke_2.86
+__29+[JPNSLogDescription install]_block_invoke.74
+__destroy_helper_block_
+__copy_helper_block_
+__29+[JPNSLogDescription install]_block_invoke_2.64
+__29+[JPNSLogDescription install]_block_invoke.63
+__29+[JPNSLogDescription install]_block_invoke_2.49
+__29+[JPNSLogDescription install]_block_invoke.46
+__29+[JPNSLogDescription install]_block_invoke_2.39
+__29+[JPNSLogDescription install]_block_invoke.34
+__29+[JPNSLogDescription install]_block_invoke_2
+__29+[JPNSLogDescription install]_block_invoke
+/Users/kazunori-yamamoto/Library/Developer/Xcode/DerivedData/JPNSLog-cahlioauwdciwbgwcdahpjptznxa/Build/Intermediates/JPNSLog.build/Release-iphoneos/JPNSLog.build/DerivedSources/JPNSLog_vers.c
